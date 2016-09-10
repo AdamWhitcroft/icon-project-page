@@ -5,7 +5,13 @@
 */
 
 /*
-    colours
+    Breakpoints
+*/
+
+$breakpoint: 640px;
+
+/*
+    Colours
 */
 $accent-color: #2e3846;
 $dark-color: #111;
@@ -13,18 +19,18 @@ $light-color: #888;
 $border-color: #eee;
 
 /*
-    font family
+    Font Family
 */
 $font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 
 /*
-    font size
+    Font Size
 */
 $font-size-normal: 1em;
 $font-size-smaller: .875em;
 $font-size-smallest: .75em;
 
 /*
-    line height
+    Line Height
 */
 $line-height: 1.5em;
