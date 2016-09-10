@@ -1,0 +1,23 @@
+---
+layout: default
+
+title: "Page title"
+description: "A project small project"
+
+version: "1.1"
+
+features:
+  - .psd
+  - .png
+  - etc
+---
+
+{% include hero.html %}
+
+{% include showcase.html %}
+
+{% if page.features %}
+{% include features.html %}
+{% endif %}
+
+{% include waiver.html %}
