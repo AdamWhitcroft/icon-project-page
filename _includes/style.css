@@ -1,6 +1,6 @@
----
----
-
+/*
+    Styles imported from `_sass`
+*/
 @import 'normalize';
 @import 'variables';
 @import 'mixins';

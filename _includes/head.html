@@ -4,6 +4,11 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/css/style.css">
     {% include analytics.html %}
+    {% capture styles %}
+    {% include style.css %}
+    {% endcapture %}
+    <style>
+    {{ styles | scssify }}
+    </style>
 </head>
