@@ -1,11 +1,10 @@
 ---
 layout: default
-
-title: "Page title"
+title: "Title"
 description: "A project small project"
-
+download: ""
+tweet: ""
 version: "1.1"
-
 features:
   - .psd
   - .png
@@ -19,5 +18,7 @@ features:
 {% if page.features %}
 {% include features.html %}
 {% endif %}
+
+{% include tweet.html %}
 
 {% include waiver.html %}
